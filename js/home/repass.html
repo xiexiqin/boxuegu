@@ -136,47 +136,42 @@
                     </ul>
                 </nav>          
             </div>
-            <!-- 个人资料 -->
-            <div class="body teacher-profile">
-                <div class="profile">
-                    <div class="row survey">
-                        <div class="col-xs-3">
-                            <div class="cell money">
-                                <i class="fa fa-money"></i>
-                                <span>我的收入</span>
-                                <h5>￥11.11</h5>
+            <!-- 修改密码 -->
+            <div class="body">
+                <div class="repass">
+                    <form action="" class="form-horizontal col-xs-offset-2">
+                        <div class="form-group">
+                            <label for="" class="col-xs-3 control-label">原密码</label>
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control input-sm">
                             </div>
                         </div>
-                        <div class="col-xs-3">
-                            <div class="cell th">
-                                <i class="fa fa-th"></i>
-                                <span>课程数量</span>
-                                <h5>12</h5>
+                        <div class="form-group">
+                            <label for="" class="col-xs-3 control-label">新密码</label>
+                            <div class="col-xs-4">
+                                <input type="password" class="form-control input-sm">
                             </div>
                         </div>
-                        <div class="col-xs-3">
-                            <div class="cell user">
-                                <i class="fa fa-user"></i>
-                                <span>用户数量</span>
-                                <h5>236</h5>
+                        <div class="form-group">
+                            <label for="" class="col-xs-3 control-label">确认密码</label>
+                            <div class="col-xs-4">
+                                <input type="text" class="form-control input-sm">
                             </div>
                         </div>
-                        <div class="col-xs-3">
-                            <div class="cell eye">
-                                <i class="fa fa-eye"></i>
-                                <span>浏览量</span>
-                                <h5>22435</h5>
-                            </div>
+                        <div class="form-group">
+                            <div class="col-xs-7">
+                                <input type="submit" class="btn btn-success btn-sm pull-right" value=" 修 改 ">
+                            </div>                          
                         </div>
-                    </div>
-                    <div class="chart">
-                        <div id="main" style="width: 600px;height:400px;"></div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <script src = "lib/requirejs/require.js" data-main="js/main"></script>
-    
+
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/nprogress/nprogress.js"></script>
+    <script src="./js/common.js"></script>
 </body>
 </html>

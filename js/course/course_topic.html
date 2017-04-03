@@ -24,7 +24,7 @@
         <div class="navs">
             <ul class="list-unstyled">
                 <li>
-                    <a href="./index.html" class="active">
+                    <a href="./index.html">
                         <i class="fa fa-home"></i>
                         仪表盘
                     </a>
@@ -47,7 +47,7 @@
                         课程管理
                         <i class="arrow fa fa-angle-right"></i>
                     </a>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled" style="display: block;">
                         <li>
                             <a href="./course_add.html">
                                  课程添加
@@ -64,7 +64,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./course_topic.html">
+                            <a href="./course_topic.html" class="active">
                                 课程专题
                             </a>
                         </li>
@@ -136,47 +136,20 @@
                     </ul>
                 </nav>          
             </div>
-            <!-- 个人资料 -->
-            <div class="body teacher-profile">
-                <div class="profile">
-                    <div class="row survey">
-                        <div class="col-xs-3">
-                            <div class="cell money">
-                                <i class="fa fa-money"></i>
-                                <span>我的收入</span>
-                                <h5>￥11.11</h5>
-                            </div>
-                        </div>
-                        <div class="col-xs-3">
-                            <div class="cell th">
-                                <i class="fa fa-th"></i>
-                                <span>课程数量</span>
-                                <h5>12</h5>
-                            </div>
-                        </div>
-                        <div class="col-xs-3">
-                            <div class="cell user">
-                                <i class="fa fa-user"></i>
-                                <span>用户数量</span>
-                                <h5>236</h5>
-                            </div>
-                        </div>
-                        <div class="col-xs-3">
-                            <div class="cell eye">
-                                <i class="fa fa-eye"></i>
-                                <span>浏览量</span>
-                                <h5>22435</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="chart">
-                        <div id="main" style="width: 600px;height:400px;"></div>
-                    </div>
-                </div>
+            <div class="body course-topic">
+                <!-- 面包屑 -->
+                <ol class="breadcrumb">
+                    <li><a href="javascript:;">课程管理</a></li>
+                    <li class="active">课程专题</li>
+                </ol>
+                <h3>敬请期待...</h3>
             </div>
         </div>
     </div>
-    <script src = "lib/requirejs/require.js" data-main="js/main"></script>
-    
+
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/nprogress/nprogress.js"></script>
+    <script src="./js/common.js"></script>
 </body>
 </html>
